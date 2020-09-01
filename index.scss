@@ -1,0 +1,37 @@
+@import "@/core/styles/base.scss";
+
+.root {
+  padding: 20px 0;
+}
+
+.rail {
+  height: 2px;
+  background-color: $black-12;
+  border-radius: 4px;
+}
+
+.railInner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin: 0 6px;
+}
+
+.slider {
+  position: absolute;
+  z-index: 2;
+  width: 12px;
+  height: 12px;
+  margin-left: -6px;
+  background-color: $purpley-pink;
+  border-radius: 50%;
+}
+
+.track {
+  position: absolute;
+  z-index: 1;
+  height: 100%;
+  background-color: $purpley-pink;
+  border-radius: 4px;
+}
