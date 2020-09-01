@@ -1,12 +1,10 @@
-@import "@/core/styles/base.scss";
-
 .root {
   padding: 20px 0;
 }
 
 .rail {
   height: 2px;
-  background-color: $black-12;
+  background-color: rgba(0, 0, 0, .12);
   border-radius: 4px;
 }
 
@@ -24,7 +22,7 @@
   width: 12px;
   height: 12px;
   margin-left: -6px;
-  background-color: $purpley-pink;
+  background-color: rgb(171, 71, 188);
   border-radius: 50%;
 }
 
@@ -32,6 +30,6 @@
   position: absolute;
   z-index: 1;
   height: 100%;
-  background-color: $purpley-pink;
+  background-color: rgb(171, 71, 188);
   border-radius: 4px;
 }
